@@ -3,13 +3,12 @@ layout: home
 title: Home
 nav_order: 0
 description: >-
-    Just the Class is a modern, highly customizable, responsive Jekyll theme
-    for developing course websites.
+    Principles and Techniques of Data Science
 ---
 
-# Launch your class website on GitHub Pages
+# Principles and Techniques of Data Science
 {: .mb-2 }
-Just the Class, Summer 2019
+Data 100, Fall 2019
 {: .mb-0 .fs-6 .text-grey-dk-000 }
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
@@ -26,42 +25,29 @@ Just the Class, Summer 2019
 </a>
 {% endif %}
 
-## Just the Class
+## Important Information
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
+- When: Tuesdays and Thursdays, 9:30am-11:00am
+- Where: 150 Wheeler
+- What: See the lecture schedule (TODO: add hyperlink)
+- News: We will post updates about the class on Piazza.
 
-- a [course calendar](calendar),
-- a [staff](staff) page,
-- a weekly [schedule](schedule),
-- and [Google Calendar](google-calendar) integration.
+This class is listed as STAT C100.
 
-Just the Class is built on top of [Just the Docs](https://github.com/pmarsceill/just-the-docs), making it easy to extend for your own special use cases while providing sane defaults for most everything else. This means that you also get:
+## Goals
 
-- automatic [navigation structure](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://pmarsceill.github.io/just-the-docs/docs/search/) and page indexing,
-- and a small but powerful set of [UI components](https://pmarsceill.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://pmarsceill.github.io/just-the-docs/docs/utilities).
+- Prepare students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context
+- Enable students to start careers as data scientists by providing experience working with real-world data, tools, and techniques
+- Empower students to apply computational and inferential thinking to address real-world problems
 
-## Getting Started
+## Prerequisites
 
-Getting started with Just the Class is simple.
+While we are working to make this class widely accessible we currently require the following (or equivalent) prerequisites:
 
-1. Fork [Just the Class](https://github.com/kevinlin1/just-the-class) to your GitHub account.
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Update `_config.yml` with your course information.
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add your content.
+- **Foundations of Data Science**: Data8 covers much of the material in DS100 but at an introductory level. Data8 provides basic exposure to python programming and working with tabular data as well as visualization, statistics, and machine learning.
+- **Computing**: _The Structure and Interpretation of Computer Programs_ (CS61A) or _Computational Structures in Data Science_ (CS88). These courses provide additional background in python programming (e.g., for loops, lambdas, debugging, and complexity) that will enable DS100 to focus more on the concepts in Data Science and less on the details of programming in python.
+- **Math**: _Linear Algebra_ (Math 54, EE 16a, or Stat89a): We will need some basic concepts like linear operators, eigenvectors, derivatives, and integrals to enable statistical inference and derive new prediction algorithms. This may be satisfied concurrently to DS100.
 
-Continue reading to learn how to setup a development environment on your local computer. This allows you to make incremental changes without directly modifying the live website.
+## About Data 100
 
-### Local development environment
-
-Just the Class is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler.
-
-1. Follow the GitHub documentation for [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll).
-1. Start your local Jekyll server.
-```bash
-$ bundle exec jekyll serve
-```
-1. Point your web browser to [http://localhost:4000](http://localhost:4000)
-1. Reload your web browser after making a change to preview its effect.
-
-For more information, refer to [Just the Docs](https://pmarsceill.github.io/just-the-docs/).
+Combining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world. This intermediate level class bridges between [Data8](http://data8.org) and upper division computer science and statistics courses as well as methods courses in other fields. In this class, we explore key areas of data science including question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making.​ Through a strong emphasis on data centric computing, quantitative critical thinking, and exploratory data analysis, this class covers key principles and techniques of data science. These include languages for transforming, querying and analyzing data; algorithms for machine learning methods including regression, classification and clustering; principles behind creating informative data visualizations; statistical concepts of measurement error and prediction; and techniques for scalable data processing.

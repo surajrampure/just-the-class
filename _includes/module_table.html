@@ -8,7 +8,10 @@
     {% for day in include.module.days %}
     <tr>
       <td>{{ day.date | date: '%a %m/%d' }}</td>
-      <td>{{ day.topic | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+      <td><b>{{ day.topic | markdownify | remove: '<p>' | remove: '</p>' }}</b> <br>
+      <a href='{{day.slides}}'>slides</a> 
+      <a href='{{day.code}}'>code</a> 
+      <a href='{{day.webcast}}'>webcast</a>&nbsp;</td>
       <td>{{ day.description | markdownify | remove: '<p>' | remove: '</p>' }}</td>
     </tr>
     {% endfor %}

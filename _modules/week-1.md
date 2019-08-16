@@ -1,24 +1,17 @@
 ---
-title: Introduction to Java
+title: Week 1
 days:
   - topic: >-
-      [Java & Git](#)
-    date: 2019-04-01
+      Course Overview, Data Design
+    slides: http://google.com
+    code: http://eecs.berkeley.edu
+    webcast: http://youtube.com
+    date: 2019-08-29
     description: >-
-      [1.1](#)
-  - topic: >-
-      [Variables & Objects](#)
-    date: 2019-04-03
-    description: >-
-      [1.2](#),
-      [2.1](#)
-  - topic: >-
-      [Tracing, IntLists, & Recursion](#)
-    date: 2019-04-05
-    description: >-
-      [2.1](#)
+      - [Textbook: Data Science Life Cycle](https://www.textbook.ds100.org/ch/01/lifecycle_intro.html)
+
+      - [Textbook: Data Design](https://www.textbook.ds100.org/ch/02/design_intro.html)
 ---
 
-- [Section 1: Intro to Java](#) ([Solutions](#))
-- [Lab 1: Intro to Java](#)
-- [Homework 1: Intro to Java](#)
+- [Lab 1: Pre-requisites and matplotlib](#)
+- [Homework 1: Pre-requisites and matplotlib (due 9/2)](#)

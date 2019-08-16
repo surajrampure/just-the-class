@@ -1,6 +1,5 @@
 ---
-title: Week 0 Announcement
+title: Week 0 Announcements
 ---
 
-Hello world!
-{: .fs-5 }
+Welcome to Data 100! We're still getting this site set up.

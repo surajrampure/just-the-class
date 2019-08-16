@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Class
-description: A Jekyll theme for course websites.
-author: Kevin Lin
+title: Data 100
+description: Principles and Techniques of Data Science
+author: Test Test
 email: me@example.com
 baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
 url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
@@ -27,17 +27,19 @@ search_enabled: true
 permalink: pretty
 nav_links:
   Other:
-    Okpy:
-      - 'https://okpy.org'
+    Textbook:
+      - 'http://textbook.ds100.org'
     Gradescope:
       - 'https://gradescope.com'
     Piazza:
       - 'https://piazza.com'
+    Okpy:
+      - 'https://okpy.org'
 aux_links:
-  'Kevin Lin':
-    - 'https://kevinl.info'
-  'Just the Class on GitHub':
-    - 'https://github.com/kevinlin1/just-the-class'
+  # 'Kevin Lin':
+  #   - 'https://kevinl.info'
+  # 'Just the Class on GitHub':
+  #   - 'https://github.com/kevinlin1/just-the-class'
 footer: >-
   Powered by <a href="https://github.com/kevinlin1/just-the-class">Just the Class</a>
 

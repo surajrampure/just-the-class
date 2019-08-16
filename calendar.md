@@ -1,26 +1,22 @@
 ---
 layout: page
-title: Course Calendar
+title: Calendar
 nav_order: 2
-description: An embedded Google Calendar displaying the weekly event schedule.
+description: The weekly event schedule.
 ---
 
-# Course Calendar
+# Calendar
 
-{% for module in site.modules %}
-{{ module }}
-{% endfor %}
+**TODO**: We can either edit this, or use Google calendar. Either works.
 
----
+<!-- Schedule data are defined as YAML [data files](https://jekyllrb.com/docs/datafiles/) following the example format in `_data/schedule`.
 
-Course materials are defined in the `_modules` directory. Each module is rendered here according to their filename.
+Multiple schedules can be rendered on a page, each with their own events and hour range. -->
 
-Modules are rendered according to the layout file defined in `_layouts/module.html`. Edit the HTML to modify the layout.
+## Weekly Schedule
 
-## Table Calendar
+{% include schedule.html data=site.data.schedule.weekly interval=30 row_height=40 %}
 
-We can also render modules as HTML tables. Modify `_includes/module_table.html` to make changes.
+## Office Hours Schedule
 
-{% for module in site.modules %}
-{% include module_table.html module=module %}
-{% endfor %}
+{% include schedule.html data=site.data.schedule.office-hours interval=30 row_height=40 %}
